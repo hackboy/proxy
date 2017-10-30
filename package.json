@@ -1,17 +1,23 @@
 {
-  "name": "crossdomain",
-  "version": "1.0.0",
-  "description": "api cross domain",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^2.3.0",
-    "express": "^4.16.2",
-    "prompt": "^1.0.0",
-    "request": "^2.83.0"
-  }
+    "name": "wing-proxy",
+    "version": "1.0.5",
+    "description": "api cross domain",
+    "bin": {
+        "wing-proxy": "./bin/start"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hackboy/proxy.git"
+    },
+    "author": "allbugkiller",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^2.3.0",
+        "express": "^4.16.2",
+        "prompt": "^1.0.0",
+        "request": "^2.83.0"
+    }
 }
